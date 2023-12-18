@@ -11,9 +11,9 @@ client.connect(broker_address)
 # PostgreSQL Database Connection Setup
 conn = psycopg2.connect(
     host="localhost",
-    database="weatherdata",
-    user="postgres",  # Replace with your PostgreSQL username
-    password="soot"  # Replace with your PostgreSQL password
+    database="wdbname",
+    user="dbuser",  # Replace with your PostgreSQL username
+    password="dbpswwn"  # Replace with your PostgreSQL password
 )
 cursor = conn.cursor()
 
